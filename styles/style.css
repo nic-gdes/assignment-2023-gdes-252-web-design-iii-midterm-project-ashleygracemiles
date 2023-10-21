@@ -195,7 +195,7 @@ header {
     grid-area: post-5;
 }
 
-@media screen and (min-width: 662px) {
+@media screen and (min-width: 1320px) {
     .hidden-mobile {
         display: block;
     }
@@ -263,7 +263,7 @@ header {
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1920px) {
     .news-posts {
         grid-template-columns: .75fr 1fr 1fr;
         grid-template-areas:
