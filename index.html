@@ -12,22 +12,26 @@
 <body class="body-layout grid">
     <!-- Header -->
     <header class="flex">
-        <img src="./images/logo-gdesnews.png" alt="GDES news logo">
-        <nav class="nav-main flex">
-            <h1 class="nav-title">Latest News</h1>
-            <ul class="nav-list flex">
-                <li><button class="btn btn-beige">Politics</button></li>
-                <li><button class="btn btn-beige">Sports</button></li>
-                <li><button class="btn btn-beige">Tech</button></li>
-            </ul>
-        </nav>
+        <div class="menu flex">
+            <img src="./images/logo-gdesnews.png" alt="GDES news logo" class="header-logo">
+            <nav class="nav-main flex">
+                <h1 class="nav-title">Latest News</h1>
+                <ul class="nav-list flex">
+                    <li><button class="btn btn-beige">Politics</button></li>
+                    <li><button class="btn btn-beige">Sports</button></li>
+                    <li><button class="btn btn-beige">Tech</button></li>
+                </ul>
+            </nav>
+        </div>
+
+        <img src="./images/icon-computer.png" alt="computer icon" class="hidden-mobile computer">
     </header>
 
     <!-- Blog Posts -->
     <main>
         <section class="news-posts flex">
 
-            <div class="post flex">
+            <div class="post post-1 flex">
                 <img src="./images/microchip.png" alt="closeup of microchip">
                 <h2 class="post-title">Revoutionary Quantum Smartphone Unveiled: Charges in a Fraction of a Second</h2>
                 <p class="post-body">In a game-changing leap for mobile technology, a startup claims to have developed a
@@ -36,7 +40,7 @@
                     practicality of this technology, given the current limitations of quantum computing.</p>
             </div>
 
-            <div class="post flex">
+            <div class="post post-2 flex">
                 <img src="./images/pizza.png" alt="closeup of pizza">
                 <h2 class="post-title">AI-Powered Robo-Pizza Chefs Are Taking Over the Fast Food Industry</h2>
                 <p class="post-body">Pizza parlors across the nation are adopting AI-powered robotic chefs that can
@@ -46,7 +50,7 @@
                 </p>
             </div>
 
-            <div class="post flex">
+            <div class="post post-3 flex">
                 <img src="./images/mars.png" alt="mars in space">
                 <h2 class="post-title">NASA’s New Space Elevator Will Reach Mars in Just 2 Hours</h2>
                 <p class="post-body">In a groundbreaking announcement, NASA has revealed plans for a space elevator that
@@ -57,20 +61,24 @@
                 </p>
             </div>
 
-            <div class="post flex">
+            <div class="post post-4 flex">
                 <img src="./images/coffee.png" alt="two mugs of coffee with some greenery">
-                <h2 class="post-title">World’s First Mind-Reading Coffee Machine Brews Your Perfect Cup of Joe</h2>
-                <p class="post-body">Imagine a world where your coffee machine knows exactly how you’re feeling and
-                    brews the perfect cup of coffee to match your mood. A new startup claims to have developed a coffee
-                    maker that can read your thoughts and preferences, delivering a customized caffeine experience.
-                    While it sounds enticing, critics argue that mind-reading technology of this caliber is far from
-                    being a reality.
-                </p>
+                <div class="content flex">
+                    <h2 class="post-title">World’s First Mind-Reading Coffee Machine Brews Your Perfect Cup of Joe</h2>
+                    <p class="post-body">Imagine a world where your coffee machine knows exactly how you’re feeling and
+                        brews the perfect cup of coffee to match your mood. A new startup claims to have developed a
+                        coffee
+                        maker that can read your thoughts and preferences, delivering a customized caffeine experience.
+                        While it sounds enticing, critics argue that mind-reading technology of this caliber is far from
+                        being a reality.
+                    </p>
+                </div>
+
             </div>
 
             <hr class="line">
 
-            <div class="post flex">
+            <div class="post post-5 flex">
                 <h2 class="post-title">Internet 2.0 Unveiled: Downloading Physical Objects at the Speed of Light</h2>
                 <p class="post-body">A tech company has announced Internet 2.0, a revolutionary upgrade that promises to
                     allow users to download physical objects as easily as they download files online. While this sounds
@@ -122,7 +130,7 @@
 
         <!-- Footer -->
         <footer class="footer-main flex">
-            <img src="./images/logo-gdesnews.png" alt="GDES logo">
+            <img src="./images/gdes_white_logo.png" alt="GDES logo">
             <h3>©2023 NIC-GDES-252</h3>
         </footer>
     </main>
